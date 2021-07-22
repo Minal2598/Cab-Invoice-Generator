@@ -7,4 +7,15 @@ public class CabService {
 
 	}
 
+	public double invoiceGenrator(double distance, int time) {
+		double totalFare = 0.0;
+		if (distance < 1 && time <= 10) {
+			totalFare = 5.00;
+		} else {
+			totalFare = distance * 10 + time;
+		}
+
+		return totalFare;
+	}
+
 }
