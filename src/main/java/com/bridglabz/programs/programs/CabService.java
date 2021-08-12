@@ -1,4 +1,4 @@
-package com.cabInvoiceGenerator;
+package com.bridglabz.programs.programs;
 
 public class CabService {
 
